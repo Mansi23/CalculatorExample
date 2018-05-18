@@ -36,7 +36,9 @@ class CalculatorActivity : AppCompatActivity() {
            //     enterValues("2")
             }
             R.id.btnThree -> {
-             //   enterValues("3")
+                txtResult.setText("3")
+
+                //   enterValues("3")
             }
             R.id.btnFour -> {
               //  enterValues("4")
